@@ -1,0 +1,18 @@
+1. Parking lot should contain multiple categories of parking facility Compact, Large, Medium
+2. Parking lot should contain parking facility for different vehicles such as Car, Bike, Truck
+3. Parking lot should contain multiple entry and exit points for different category of vehicles.(Not done)
+4. The charges should be 30 Rs for 1st hour, 20 Rs for 2nd hour and 10Rs per hour for next hours.(Random assumption)
+5. There should be an attendant to forsee and look into procedure if there arises any issue. 
+6. Admin should be notified when payment is made by cash
+**Multiple floors and display not implemented**
+
+
+Updates:
+1.Used Maven
+2.Reduced the number of classes
+3.Changed accessibility of attributes (only used setters when necessary)
+4.Given suitable names for classes and methods
+5.Re-factored  duplicate methods
+6.Project structure changed
+7.Used JUnit5 for testing(only tested for fee calculation)
+8.Value Object(Partial)
